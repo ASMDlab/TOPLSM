@@ -23,11 +23,11 @@ The latest version is updated on **Dec 19, 2023**
 
 ## How to start
 
-There are two folders in `src/`, which are `2D` and `3D`, respectively. `2D` contains the codes for optimization design problem with 4 nodes quadriliteral elements ('Quad4'), and `3D` contains the codes with 8 nodes hexahedral elements (`Hex8`)  and 4 nodes tetrahedral elements (`Tet4`).
+There are two folders in `src/`, which are `2D/` and `3D/`, respectively. `2D/` contains the codes for optimization design problem with 4 nodes quadriliteral elements (`Quad4/`), and `3D/` contains the codes with 8 nodes hexahedral elements (`Hex8/`)  and 4 nodes tetrahedral elements (`Tet4/`).
 
-For the use of codes in `2D`, you can check this [educational paper](https://link.springer.com/article/10.1007/s00158-018-1904-8).
+For the use of codes in `2D/`, you can check this [educational paper](https://link.springer.com/article/10.1007/s00158-018-1904-8).
 
-Each folder in `3D` contains three MATLAB files `(.m)`:
+Each folder in `3D/` contains three MATLAB files `(.m)`:
 * `Topo_PLSM_3D.m`: the main program; 
 * `Topo_FEA.m`: the function for finite element analysis;
 * `Topo_Post.m`: the function to output the optimization results;
