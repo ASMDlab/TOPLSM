@@ -11,11 +11,11 @@ MATLAB codes for topology optimization design using the paramterized level-set m
 
 
 ## Overview
-This project contains the codes for 3D topology optimization design using the parameterized level-set method, which is developed by the *Advanced Strcuture and Material Design ([ASMD Lab](https://www.x-mol.com/groups/wei_peng?lang=en))* at the *South China University of Technology ([SCUT](https://www.scut.edu.cn/en/))*.
+This project contains the codes for 2D and 3D topology optimization design using the parameterized level-set method, which is developed by the *Advanced Strcuture and Material Design ([ASMD Lab](https://www.x-mol.com/groups/wei_peng?lang=en))* at the *South China University of Technology ([SCUT](https://www.scut.edu.cn/en/))*.
 
-The current codes only consider the minimum compliance design under linear elastic assumptions. However, it is easy to extend them to design problems of other disciplines, such as the compliant mechanisms and metamaterials. The basic codes for 2D minimum compliance design can be found from the appendix of this [educational paper](https://link.springer.com/article/10.1007/s00158-018-1904-8).
+The current codes only consider the minimum compliance design under linear elastic assumptions. However, it is easy to extend them to design problems of other disciplines, such as the compliant mechanisms and metamaterials. The basic theories of the parameterized level set method and the instructions for the 2D codes can be found from this [educational paper](https://link.springer.com/article/10.1007/s00158-018-1904-8).
 
-For more information about the basic theory and latest development of the parameterized level-set method, we recommend users to visit [our website](https://www.x-mol.com/groups/wei_peng?lang=en). If you have any questions related to these codes, please feel free to contact us through this GitHub account or directly communicate with Prof. Peng Wei (ctpwei@scut.edu.cn), the leader of this project.
+For more information about the latest development of the parameterized level-set method, we recommend users to visit [our website](https://www.x-mol.com/groups/wei_peng?lang=en). If you have any questions related to these codes, please feel free to contact us through this GitHub account or directly communicate with Prof. Peng Wei (ctpwei@scut.edu.cn), the leader of this project.
 
 
 ### Update
@@ -23,9 +23,11 @@ The latest version is updated on **Dec 19, 2023**
 
 ## How to start
 
-There are two folders in `src/`, which are `Hex8` and `Tet4`, respectively. The former contains the codes for optimization design problem with hexahedral elements (8 nodes) and the latter is for tetrahedral elements (4 nodes).
+There are two folders in `src/`, which are `2D` and `3D`, respectively. `2D` contains the codes for optimization design problem with 4 nodes quadriliteral elements ('Quad4'), and `3D` contains the codes with 8 nodes hexahedral elements (`Hex8`)  and 4 nodes tetrahedral elements (`Tet4`).
 
-Each folder contains three MATLAB files `(.m)`:
+For the use of codes in `2D`, you can check this [educational paper](https://link.springer.com/article/10.1007/s00158-018-1904-8).
+
+Each folder in `3D` contains three MATLAB files `(.m)`:
 * `Topo_PLSM_3D.m`: the main program; 
 * `Topo_FEA.m`: the function for finite element analysis;
 * `Topo_Post.m`: the function to output the optimization results;
@@ -41,7 +43,7 @@ Just open the `Topo_PLSM_3D.m`, set the parameters, and run it. The results will
 
 ## Citations
 
-If you find these codes helpful, we would appreciate it if you could cite the following articles:
+If you use these codes for research purposes, please cite the following articles:
 
 ```bibtex
 
