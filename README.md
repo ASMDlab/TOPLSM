@@ -19,7 +19,7 @@ For more information about the basic theory and latest development of the parame
 
 
 ### Update
-The latest version is updated on **Dec 13, 2023**
+The latest version is updated on **Dec 19, 2023**
 
 ## How to start
 
