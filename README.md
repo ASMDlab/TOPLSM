@@ -9,7 +9,7 @@ MATLAB codes for topology optimization design using the paramterized level-set m
   <img src="imag/opt_Tri3.gif" width="360" />
 </p>
 <p align="middle">
-  <em>2D examples</em>em>
+  <em>2D examples</em>
 </p>
 
 <p align="middle">
@@ -17,7 +17,7 @@ MATLAB codes for topology optimization design using the paramterized level-set m
   <img src="imag/opt_Tet4.gif" width="360" />
 </p>
 <p align="middle">
-  <em>3D examples</em>em>
+  <em>3D examples</em>
 </p>
 
 ## Overview
