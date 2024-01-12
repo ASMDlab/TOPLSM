@@ -5,10 +5,20 @@
 MATLAB codes for topology optimization design using the paramterized level-set method.
 
 <p align="middle">
+  <img src="imag/opt_Quad4.gif" width="360" />
+  <img src="imag/opt_Tri3.gif" width="360" />
+</p>
+<p align="middle">
+  <em>2D examples</em>em>
+</p>
+
+<p align="middle">
   <img src="imag/opt_Hex8.gif" width="360" />
   <img src="imag/opt_Tet4.gif" width="360" />
 </p>
-
+<p align="middle">
+  <em>3D examples</em>em>
+</p>
 
 ## Overview
 This project contains the codes for 2D and 3D topology optimization design using the parameterized level-set method, which is developed by the *Advanced Strcuture and Material Design ([ASMD Lab](https://www.x-mol.com/groups/wei_peng?lang=en))* at the *South China University of Technology ([SCUT](https://www.scut.edu.cn/en/))*.
