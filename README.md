@@ -1,6 +1,6 @@
 ## TOPLSM
-![Github Star](https://img.shields.io/github/stars/xwpken/Test)
-![Github Fork](https://img.shields.io/github/forks/xwpken/Test)
+![Github Star](https://img.shields.io/github/stars/ASMDlab/TOPLSM)
+![Github Fork](https://img.shields.io/github/forks/ASMDlab/TOPLSM)
 
 MATLAB codes for topology optimization design using the paramterized level-set method.
 
